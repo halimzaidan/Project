@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    background-color: #f8f8f8;
+}
+.container {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+#component{
+    display: flex;
+    width: 85vw;
+    height: 100%;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 1rem;
+    
+}
+
+.he{
+    width:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.he:hover{
+    color: gainsboro;
+}
+.menu{
+    padding: 1rem;
+    width: 15vw;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    justify-content: center;
+    background-color: beige;
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(244, 240, 240);
+}
+.categories{
+    padding: 0.5rem;
+    color: gray;
+}
+.categories:hover{
+background-color: gainsboro;
+border-radius: 10px;
+}
+
+
+.in{
+    padding: 0.5rem;
+}
+
+.bb{
+    background-color: gainsboro;
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: gray;
+
+}
+.ml{
+    width:100vw;
+    height: 60vh;
+    background-image: url("back.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#c1{
+    display: flex;
+    gap:10px;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.e{
+    text-align: center;
+
+}
+.bv{
+    width: 200px;
+    border-radius: 5px;
+    background-color: bisque;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid yellow;
+
+margin:0 auto ;
+}
+
+.singup{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.a{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:40vw;
+height: 60vh;
+border-radius: 10px;
+
+position: relative;
+margin-left: 100px;
+z-index:10;
+border: 1px solid gainsboro;
+border-radius: 5px;
+
+}
+
+.b{
+width:40vw;
+height: 60vh;
+border-radius: 10px;
+background-color: red;
+z-index: 1;
+}
+.kc{
+    width: 70%;
+    padding: 0.5rem;
+    margin:10px;
+}
+
+.aa{
+    margin: 0px;
+    padding: 0px;
+}
+.bji{
+    padding: 0.5rem;
+    margin: 5px;
+    background-color: rgb(90, 90, 239);
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+.abb{
+    color:red;
+    font-size: 15px;
+    margin: 0px;
+    padding:0px;
+    
+}
+a{text-decoration: none;
+}
